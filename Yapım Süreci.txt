@@ -1,0 +1,6 @@
+Web Teknolojileri Proje Yapım Aşaması
+
+1. Gün (09/05/2023)
+-Sitenin içeriği düşünüldü. 
+-Şehri tanıtan bilgiler araştırıldı.
+-Tutulan takımın tarihi araştırıldı.
