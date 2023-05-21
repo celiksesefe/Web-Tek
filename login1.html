@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="tasarim.css">
+    <link rel='stylesheet' href='logindogrulama.css' type='text/css' />
+      <script src="loginsayfa.js"></script>
+    <meta charset="UTF-8">
+    <title>Giriş Ekranı</title>
+    <style>
+    input[type=password], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+
+  
+    
+    input[type=submit] {
+        width: 100%;
+        background-color: #0b032e;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    input[type=email], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit]:hover {
+        background-color: black
+    }
+    
+        input[type=reset] {
+        width: 100%;
+        background-color: #0b032e;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        }        
+        input[type=reset]:hover {
+        background-color: black
+    }
+        
+    </style>
+</head>
+<body>
+    <div style="text-align:center"><h1>KULLANICI GİRİŞ EKRANI</h1> </div>
+<div style="text-align:center"><p>Lütfen giriş yapınız.</p> </div>
+
+<style>
+    body{
+           background-color: chocolate;
+       }
+
+</style>  
+
+
+
+<form name='loginformu' method="POST" action="login1.php" onSubmit="return loginDogrulama()">
+  
+    <ul style="list-style-type:none">
+    <li><label for="email">Email : </label></li>
+    <li><input type="text" name="email" size="50" /></li>
+    <li><label for="sifre">Şifre : </label></li>
+    <li><input type="password" name="sifre" size="50" /></li>
+    <li><input type="submit" name="submit" value="Gönder"></li>
+    <li><input type="reset" name="temizle" value="Temizle"></li>
+    
+    </ul>
+    </form>
+
+<footer>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <a href="index.html">Anasayfaya dönmek için tıklayın.</a>
+</footer>
+
+</body>
+</html>
