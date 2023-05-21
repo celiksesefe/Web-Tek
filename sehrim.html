@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>Memleketim</title>
+        <style>
+            img{
+                width: 1000px;
+              height: 600px;  
+            }
+            body{
+                background-color: chocolate;
+            }
+          .slider1{
+              position: relative;
+              width: 1000px;
+              height: 600px;
+              border: 5px solid white;
+              margin: 50px auto;
+              overflow: hidden;
+          }
+          .slider2 ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+
+          }
+          .slider1 ul li{
+              position: absolute;
+          }
+          .slider1 ul li:nth-of-type(1){
+              left: 0px;   
+          }
+          .slider1 ul li:nth-of-type(2){
+              left: 1000px;   
+          }
+          .slider1 ul li:nth-of-type(3){
+              left: 2000px;   
+          }
+          .slider1 ul li:nth-of-type(4){
+              left: 3000px;   
+          }
+          .slider2{
+              position: absolute;
+              left: 0px;
+              animation-name: slayt;
+              animation-duration: 10s;
+              animation-delay:0.5s;
+              animation-direction: alternate;
+              animation-iteration-count: infinite;
+          }
+          .slider2:hover{
+animation-play-state: paused;
+          }
+          @keyframes slayt{
+              0%{left:0px;}
+              33%{left:-1000px;}
+              66%{left:-2000px;}
+              100%{left:-3000px;}
+          }
+         .baslik{
+             color:white;
+             font-size: 400%;
+    text-align: center;
+         }
+         .aciklama{
+             color:white;
+         }
+        </style>
+    </head>
+<body>
+    <p class="baslik">İZMİR/TİRE</p>
+    <div class="slider1">
+        <div class="slider2">
+            <ul>
+                <li>
+                    <a href="#tire">
+                        <img 
+            src="foto/indir.jpg"
+            alt="Tire ilçesi."
+            width: 700px;
+              height: 600px;
+            />
+                    </a>
+                </li>
+                <li>
+                    <a href="#salipazar">
+                        <img 
+                        src="foto/1509989830.jpg"
+                        alt="Salı Pazarı."
+                        width: 1000px;
+              height: 600px;
+            />
+                    </a>
+                </li>
+                <li>
+                    <a href="#festival">
+                        <img 
+                        src="foto/incirceviz 02.jpg"
+                        alt="İncir Festivali."
+                        width: 1000px;
+              height: 600px;
+            />
+                    </a>
+                </li>
+                <li>
+                    <a href="#gastro">
+                        <img 
+                        src="foto/Gastronomiturizmi_20404231218.jpg"
+                        alt="Yerel lezzetler."
+                        width: 1000px;
+              height: 600px;
+            />
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+    <h1 class="aciklama" id="tire">Tire İlçesi</h1>
+    <p class="aciklama">Tire, Türkiye'nin İzmir ilinin bir ilçesidir. İlçenin doğusunda Ödemiş, kuzeyinde Bayındır, batısında Torbalı ve Selçuk ilçeleri, güneyinde Aydın ili bulunmaktadır. Nüfusu 2021 yılı itibarıyla 86.758 kişidir.</p>
+<br><br>
+<h1 class="aciklama" id="salipazar">Salı Pazarı</h1>
+<p class="aciklama">Türkiye’nin en büyük açık hava pazarı olan Tire Salı Pazarı, yaklaşık 1.800 tezgâhıyla her Salı günü, Tire'nin merkezindeki tüm sokakları kaplamaktadır. Satış, sabah 08.30’da, Belediye hoparlöründen anons edilen ve tüm vatandaşların el açarak katıldığı Pazar duasından sonra başlamaktadır.
+
+    Ege Bölgesi’ndeki çeşitli illerden gelen ziyaretçilerin ve çok sayıda yabancı turistin yoğun ilgisini çeken Tire Salı Pazarı, birçok dergi ve gazete tarafından Türkiye’nin en iyi pazarı seçilmiştir. Çok uzun yıllardır süregelen bu pazarda, yöreye özgü ot ve sebze çeşitlerinin yanı sıra Tire köylülerinin el emeği olan işlemeler ve Tire’nin geleneksel el sanatlarına ait nadide örnekler bulunabilir.</p>
+<br><br>
+<h1 class="aciklama" id="festival">Tire Geleneksel İncir ve Festivali</h1>
+<p class="aciklama">Türkiye’nin en kaliteli inciri olan Smyrna Figs türü incir, Güme dağının karşılıklı iki eteği olan Tire-Germencik- İncirliova üçgeninde yetişmektedir. Ayrıca Tire dağlarında yetişen ceviz de ülke çapında aranır durumdadır. İşte bu zenginlik, T.C Tire Belediyesi tarafından düzenlenen İncir ve Ceviz Festivalleri sayesinde çok daha geniş kitlelere ulaşma imkânı bulmuştur.
+
+    Belediye Başkanımız Salih Atakan Duran'ın, ilçenin yöresel ürünlerine değer katmak için 2019 yılında başlattığı ve geleneksel hale getirdiği “İncir ve Ceviz Festivali”ne ilçemiz dışından ve ülkemizin dört bir tarafından binlerce misafir katılmaktadır.</p>
+<br><br>
+<h1 class="aciklama" id="gastro">Gastronomik Lezzetler</h1>
+<p class="aciklama">Tire, sahip olduğu derin tarihsel kökleri sayesinde farklı kültürlerin karşılaşma alanı olmuş bir yerleşimdir. Tire Şiş Köfte , Tak tak Kebabı , Tire Tostu , keşkek vb. oldukça fazla gastronomik lezzetlere sahiptir.
+
+    Sarmaşık, ebegümeci, çay otu, kuzukulağı, melengeç, arapsaçı, karabaş otu, ısırgan, kabak çiçeği, şevketibostan, deniz börülcesi, cibes, pazı, kapurcuk, topalak ve çakıldak;Tirelilerin zeytinyağlı ve etli yemekleriyle salatalarında sıklıkla kullandığı otlardandır. Bu kültürün oluşmasında Yörüklerin ve Tire’ye iskân edilen Giritlilerin varlığı büyük katkı sağlamıştır.</p>
+<br><br><br>
+<footer>
+    <a href="index.html">Anasayfaya dönmek için tıklayın.</a>
+</footer>
+
+
+</body>
+</html>
