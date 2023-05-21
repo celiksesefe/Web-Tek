@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>İLETİŞİM</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="tasarim.css">
+	  <link rel='stylesheet' href='formdogrulama.css' type='text/css' />
+		<script src="formdogrulama.js"></script>
+   
+  
+  
+</head>
+    
+
+    
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <body onload="document.iletisimformu.kadi.focus();">
+        <h1 style="text-align: center">İLETİŞİM</h1>
+    
+ <div class="container">
+ <div class="row" >
+  <div class="col" >
+    <div >
+	
+        <style>
+            body{
+                   background-color: chocolate;
+               }
+        
+        </style>  
+	
+
+<form name='iletisimformu' method="POST" action="iletisim2.php" onSubmit="return formDogrulama()">
+<ul style="list-style-type: none">
+<li><label for="kadi">Kullanıcı Adı : </label></li>
+<li><input type="text" name="kadi" size="12" /></li>
+<li><label for="sifre">Şifre : </label></li>
+<li><input type="password" name="sifre" size="12" /></li>
+<li><label for="isim">İsim : </label></li>
+<li><input type="text" name="isim" size="50" /></li>
+<li><label for="ulke">Ülke : </label></li>
+<li><select name="ulke">
+<option selected="" value="Default">(Lütfen Ülke Seçiniz)</option>
+<option value="TR">Türkiye</option>
+<option value="US">ABD</option>
+<option value="IN">Hindistan</option>
+<option value="RU">Rusya</option>
+<option value="XX">Diğer</option>
+</select></li>
+<li><label for="email">Email : </label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="c">Cinsiyet:</label></li>
+<li><input type="radio" name="ecinsiyet" value="erkek" /><span>Erkek</span></li>
+<li><input type="radio" name="kcinsiyet" value="kadin" /><span>Kadın</span></li>
+<li><label>Dil : </label></li>
+<li><input type="checkbox" name="tr" value="tr" checked /><span>Türkçe</span></li>
+<li><input type="checkbox" name="trdiger" value="trdiger" /><span>Diğer</span></li>
+<li><label for="diger">Yazmak İstedikleriniz : </label></li>
+<li><textarea name="diger" id="diger"></textarea></li>	
+<li><input type="submit" name="submit" value="Gönder" style="width:100px; height:60px; background-color:black; color: white;"></li>
+<li><input type="reset" name="temizle" value="Temizle" style="margin-top:20px; width:100px; height:60px; background-color:black; color: white;"></li>
+<footer>
+    <a href="index.html">Anasayfaya dönmek için tıklayın.</a>
+</footer>
+</ul>
+</form>
+</div>   
+</div>    
+</body>
+</html>
