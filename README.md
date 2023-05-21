@@ -1,2 +1,2 @@
-# Web-Tek
-Kendimi ve Memleketimi tanıtan , Web Teknolojileri dersi için hazırladığım proje.
+# WEB TEKNOLOJİLERİ PROJE 
+Bootstrap içeren responsive bir yapı kullanılarak web sitesi yapılacaktır. Web sitesinin içeriği siteyi yapan kişiyi ve o kişinin memleketini tanıtmaktır. “Hakkında” adlı oluşturacağım sayfada kendimi tanıtan bilgiler (hobiler, etkinlikler vb.) olacak. “Özgeçmiş” adlı oluşturacağım sayfada semantic taglar kullanarak eğitim bilgilerimi tanıtacağım. “Şehrim” adlı sayfada memleketime dair bilgileri, gezilecek yerleri anlatacağım. “Takımımız” isimli sayfada şehrimin takımını tanıtacağımç
